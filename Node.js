@@ -3,8 +3,8 @@ var httpProxy = require('http-proxy')
 var proxy = httpProxy.createProxy();
 
 var options = {
-    'foo.com': 'http://website.com:8001',
-    'bar.com': 'http://website2.com:8002'
+    'foo.com': 'https://appetize.io/',
+    'bar.com': 'https://appetize.io/'
 }
 
 require('http').createServer(function(req, res) {
